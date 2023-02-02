@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+.nav-item:hover {
+    color: #87db66;
+}
+
 a:visited {
     color: inherit;
 }
@@ -137,6 +141,17 @@ nav {
     font-weight: 500;
     text-align: start;
     padding-top: 10px;
+}
+
+.container-title {
+    display: flex;
+    font-size: 50px;
+    color: black;
+    padding: 40px;
+    padding-left: 50px;
+    font-weight: 300;
+    justify-self: center;
+    
 }
 
 @media only screen and (max-width: 550px) {
